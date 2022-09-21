@@ -6,7 +6,6 @@ public class PossibleFraudulentActivity {
         int[] expenditures = new int[]{2, 3, 3, 2, 3, 6, 8, 4, 5};
         numberOfNotifications(nDays, expenditures);
     }
-
     public static void numberOfNotifications(int[] nDays, int[] expenditures) {
         int notifications = 0;
         int requiredDaysForMedian = nDays[1];
